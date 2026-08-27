@@ -37,7 +37,7 @@ export default function Hero() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.3, ease: [0.165, 0.84, 0.44, 1] }}
                 >
-                    <h1>CRAFTING SURREAL ADVERTISING, POWERED BY AI.</h1>
+                    <h1>ENTER THE UNREAL REALM OF STORIES.</h1>
                     <p>WHERE CINEMA MEETS INNOVATION</p>
                 </motion.div>
                 <motion.div 

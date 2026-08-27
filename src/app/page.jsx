@@ -5,7 +5,6 @@ import Showcase from './_components/showcaseSection/showcase';
 import Stats from './_components/statsSection/stats';
 import Why from './_components/whySection/why';
 import Process from './_components/processSection/process';
-import Testimonials from './_components/testimonialsSection/testimonials';
 import Audience from './_components/audienceSection/audience';
 import Contact from './_components/contactSection/contact';
 
@@ -18,7 +17,6 @@ export default function Home() {
       <Why />
       <Process />
       <Showcase />
-      <Testimonials />
       <Audience />
       <Contact />
       <Footer />

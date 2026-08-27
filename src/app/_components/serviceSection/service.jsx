@@ -10,6 +10,7 @@ const data = [
     subtitle: 'Our Core Strength',
     description: 'We blend AI-generated visuals with real-world filming to create cinematic ads that look high-budget at a fraction of the cost. No expensive sets. No massive crew.',
     tags: ['AI Visuals', 'Virtual Production', 'Live Shoot Hybrid'],
+    image: '/assets/01.webp',
   },
   {
     number: '02',
@@ -17,6 +18,7 @@ const data = [
     subtitle: 'Budget-Friendly Storytelling',
     description: 'Brand introduction films, founder stories, and product narratives that connect. Minimal crew, smart tech, and strong storytelling — maximum impact, minimum cost.',
     tags: ['Founder Stories', 'Brand Intro', 'Product Narratives'],
+    image: '/assets/02.webp',
   },
   {
     number: '03',
@@ -24,6 +26,7 @@ const data = [
     subtitle: 'Product Ads & Short-Form',
     description: 'Short-form ads designed for where brands grow today. AI-enhanced product visuals, motion graphics, and fast-edit promos for Instagram Reels, YouTube Shorts, and TikTok.',
     tags: ['Instagram Reels', 'YouTube Shorts', 'TikTok'],
+    image: '/assets/03.webp',
   },
   {
     number: '04',
@@ -31,6 +34,7 @@ const data = [
     subtitle: 'Creative Direction',
     description: 'We don\'t just produce — we build your brand\'s visual identity. Concept development, mood boards, AI-assisted pre-visualisation, and full campaign design.',
     tags: ['Concept Dev', 'Mood Boards', 'AI Pre-Viz'],
+    image: '/assets/04.webp',
   },
   {
     number: '05',
@@ -38,6 +42,7 @@ const data = [
     subtitle: 'Boundary-Pushing Production',
     description: 'For brands that want to genuinely stand out. Experimental ad formats, narrative-driven campaigns, and hybrid cinematic storytelling that breaks the mold.',
     tags: ['Experimental Formats', 'Narrative Campaigns', 'Cinematic Hybrid'],
+    image: '/assets/05.webp',
   },
 ]
 
@@ -79,6 +84,8 @@ export default function Service() {
       >
         {data.map((item, index) => (
           <motion.div variants={itemVariants} className={styles.card} key={index}>
+            <img src={item.image} alt={item.title} className={styles.cardImage} />
+            <div className={styles.cardOverlay} />
             <span className={styles.ghostNumber} aria-hidden="true">{item.number}</span>
             <div className={styles.content}>
               <span className={styles.number}>{item.number}</span>

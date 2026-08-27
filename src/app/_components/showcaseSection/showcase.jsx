@@ -7,14 +7,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 const projects = [
   {
     video: '/assets/Perfume Ad 03.mp4',
-    title: 'Perfume Ad',
+    title: 'Brand Film',
     type: 'Commercial',
     desc: 'A full brand campaign for Locali — combining AI-assisted visuals and live-action filming to tell a compelling local story.',
     tags: ['Brand Campaign', 'AI Hybrid', 'Commercial'],
   },
   {
     video: '/assets/dubai-ad.webm',
-    title: 'Dubai Ad',
+    title: 'Locali TV Commercial',
     type: 'Commercial',
     desc: 'A high-energy commercial produced for the Dubai market — cinematic visuals, fast cuts, and a premium brand feel on a lean budget.',
     tags: ['Commercial', 'Dubai', 'Fast Turnaround'],

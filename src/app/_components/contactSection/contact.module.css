@@ -40,22 +40,36 @@
 .contactLinks {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .contactLink {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #0a0a0a;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
   text-decoration: none;
-  transition: color 0.3s ease;
+  background: #0a0a0a;
+  border: 2px solid #0a0a0a;
+  padding: 1.1rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  font-family: 'NeueMontreal-Bold';
+  letter-spacing: 0.3px;
 }
 
-.contactLink:hover { color: #ff6b00; }
-.contactLink svg { font-size: 1.1rem; }
+.contactLink:hover {
+  background: #ff6b00;
+  border-color: #ff6b00;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 107, 0, 0.25);
+}
+
+.contactLink svg { font-size: 1.2rem; }
 
 .form {
   display: flex;
