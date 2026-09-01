@@ -6,6 +6,20 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
   {
+    video: '/assets/showreel-2026.mp4',
+    title: 'Showreel 2026',
+    type: 'Showreel',
+    desc: 'Our 2026 showreel — a snapshot of our best work, showcasing the range and quality of our AI hybrid productions.',
+    tags: ['Showreel', '2026', 'Highlights'],
+  },
+  {
+    video: '/assets/work-showcase.mp4',
+    title: 'Work Showcase',
+    type: 'Showcase',
+    desc: 'A curated showcase of our creative work — from concept to final delivery, highlighting the versatility of our productions.',
+    tags: ['Showcase', 'Creative', 'Portfolio'],
+  },
+  {
     video: '/assets/Perfume Ad 03.mp4',
     title: 'Brand Film',
     type: 'Commercial',
