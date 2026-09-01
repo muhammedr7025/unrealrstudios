@@ -20,7 +20,7 @@ const projects = [
     tags: ['Showcase', 'Creative', 'Portfolio'],
   },
   {
-    video: '/assets/Perfume Ad 03.mp4',
+    video: '/assets/brand-film.mp4',
     title: 'Brand Film',
     type: 'Commercial',
     desc: 'A full brand campaign for Locali — combining AI-assisted visuals and live-action filming to tell a compelling local story.',
