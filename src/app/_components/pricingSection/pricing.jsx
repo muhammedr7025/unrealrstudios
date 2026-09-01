@@ -14,44 +14,6 @@ export default function Pricing() {
     }
   };
 
-  const caseStudies = [
-    {
-      title: "10x sales in one week",
-      desc: "Yes, you read that correctly ... in the first week of introducing video into their marketing, Imaginatal saw a 10X increase in sales. Listen to Darlington's story here.",
-    },
-    {
-      title: "Consistent lead generation",
-      desc: "When it comes to building trust, video wipes the floor with other forms of content. Here's how it became integral to Paul's outreach and conversion process.",
-    },
-    {
-      title: "Cut costs and increased engagement",
-      desc: "The founders needed a way to engage and inform. Entertain and educate. Email you say? Forget about it! Hear how Reassured changed their internal comms forever.",
-    },
-    {
-      title: "Raised awareness with long-term content",
-      desc: "When we first met MD Paul Gough, he explained that whilst he did use social media, he was more interested in how he could leverage video within his sales process.",
-    },
-    {
-      title: "Increased productivity",
-      desc: "Why bother flying a video team from the UK to India, and THEN to the USA? Because when you're running a large scale global event, you want the team who are guaranteed to deliver.",
-    },
-    {
-      title: "Doubled website enquiries",
-      desc: "Rawlings used video to better explain their services and value proposition. The result? Double (in fact nearly triple) the number of enquiries.",
-    },
-    {
-      title: "Better visibility and easier sales",
-      desc: "Each video that Nick releases brings in over £7000 in work on average. Find out why he trusts us to keep delivering ... spoiler: it's because of the money.",
-    },
-    {
-      title: "1.7million impressions",
-      desc: "When we first met MD Paul Gough, he explained that whilst he did use social media, he was more interested in how he could leverage video within his sales process.",
-    },
-    {
-      title: "Sky-rocketed social engagement",
-      desc: "When we first met MD Paul Gough, he explained that whilst he did use social media, he was more interested in how he could leverage video within his sales process.",
-    }
-  ];
 
   return (
     <section className={styles.pricing} id="pricing">
@@ -327,9 +289,7 @@ export default function Pricing() {
             <p>
               Can we do something for less than £2,500? Maybe. It’s worth asking, especially if it’s just something small, like filming a talk for a couple of hours.
             </p>
-            <p>
-              We might not always be able to accommodate, but we have a strong network and can usually connect you with someone who can.
-            </p>
+
           </div>
           <div className={styles.dealHighlightCard}>
             <h4>Special & Custom Terms</h4>
@@ -340,39 +300,6 @@ export default function Pricing() {
         </div>
       </div>
 
-      {/* ROI Case Studies Grid */}
-      <div className={styles.roiSection}>
-        <div className={styles.sectionHeader}>
-          <span className={styles.label}>Case Studies</span>
-          <h2 style={{ marginTop: '0.5rem' }}>What’s the ROI?</h2>
-          <p>
-            Video marketing is an investment. Here’s some of the results our clients have achieved after trusting us with their video strategies…
-          </p>
-        </div>
-
-        <div className={styles.roiGrid}>
-          {caseStudies.map((study, idx) => (
-            <motion.div
-              key={idx}
-              className={styles.roiCard}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: idx * 0.05 }}
-            >
-              <div className={styles.roiCardHeader}>
-                <h3>Case study: {study.title}</h3>
-              </div>
-              <div className={styles.roiCardBody}>
-                <p>{study.desc}</p>
-              </div>
-              <div className={styles.roiCardFooter}>
-
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
 
       {/* Looking for reliable results */}
       <div className={styles.finalBanner}>

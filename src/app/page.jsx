@@ -6,7 +6,6 @@ import Stats from './_components/statsSection/stats';
 import Why from './_components/whySection/why';
 import Process from './_components/processSection/process';
 import Audience from './_components/audienceSection/audience';
-import Contact from './_components/contactSection/contact';
 
 export default function Home() {
   return (
@@ -18,7 +17,6 @@ export default function Home() {
       <Process />
       <Showcase />
       <Audience />
-      <Contact />
       <Footer />
     </>
   );
